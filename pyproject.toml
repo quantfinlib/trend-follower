@@ -1,0 +1,16 @@
+[project]
+name = "trendfollower"
+version = "0.1.0"
+description = "Implementation of the science and practice of trend following systems."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars[numpy,pyarrow,excel,async,graph,plot,style,timezone,pydantic,calamine,openpyxl,xlsx2csv,xlsxwriter]"
+]
+
+[project.optional-dependencies]
+
+tests = [
+    "pytest",
+    "pytest-cov",
+]
