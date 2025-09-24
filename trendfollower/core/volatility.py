@@ -18,7 +18,7 @@ Implemented functions:
 
 import polars as pl
 
-from trendfollower.filters import ewma
+from trendfollower.core.filters import ewma
 
 
 def lag1_diff(z: pl.Series) -> pl.Series:
