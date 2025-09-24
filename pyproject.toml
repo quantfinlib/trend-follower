@@ -14,3 +14,16 @@ tests = [
     "pytest",
     "pytest-cov",
 ]
+
+docs = [
+    "scipy",
+    "pdoc3",
+    "matplotlib",
+    "plotly",
+    "seaborn",
+    "nbformat==5.4.0",
+    "ipython", 
+    "notebook", 
+    "ipywidgets",
+    "yfinance"
+]
